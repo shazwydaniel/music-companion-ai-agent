@@ -1,0 +1,23 @@
+<script>
+// 1. Bind once per browser document; no profile, chat, storage, or network access.
+if (!window.riffinChartKeysBound) {
+  window.riffinChartKeysBound = true;
+  document.addEventListener('keydown', (event) => {
+    // 2. Only a focused chart region owns horizontal keys; other widgets stay native.
+    const chart = event.target;
+    if (!(chart instanceof HTMLElement) || !chart.matches('.riffin-chart') ||
+        event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+    const moves = {
+      ArrowLeft: () => { chart.scrollLeft -= 56; },
+      ArrowRight: () => { chart.scrollLeft += 56; },
+      Home: () => { chart.scrollLeft = 0; },
+      End: () => { chart.scrollLeft = chart.scrollWidth; }
+    };
+    if (moves[event.key]) {
+      event.preventDefault();
+      event.stopPropagation();
+      moves[event.key]();
+    }
+  }, true);
+}
+</script>

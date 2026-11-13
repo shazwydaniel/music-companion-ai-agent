@@ -1,0 +1,75 @@
+# 1. Keep the native settings menu available for the Light / Dark selector.
+[client]
+toolbarMode = "viewer"
+
+[browser]
+gatherUsageStats = false
+
+# 2. Poppins is bundled locally under SIL OFL; code keeps a monospace grid.
+[server]
+enableStaticServing = true
+
+[theme]
+base = "light"
+font = "Poppins, sans-serif"
+headingFont = "Poppins, sans-serif"
+codeFont = "IBM Plex Mono, monospace"
+baseFontSize = 16
+headingFontSizes = ["2.75rem", "1.5rem", "1.25rem"]
+headingFontWeights = [600, 600, 600]
+baseRadius = "1rem"
+buttonRadius = "full"
+showWidgetBorder = true
+linkUnderline = true
+
+[[theme.fontFaces]]
+family = "Poppins"
+url = "app/static/fonts/Poppins-Regular.ttf"
+weight = "400"
+style = "normal"
+
+[[theme.fontFaces]]
+family = "Poppins"
+url = "app/static/fonts/Poppins-Medium.ttf"
+weight = "500"
+style = "normal"
+
+[[theme.fontFaces]]
+family = "Poppins"
+url = "app/static/fonts/Poppins-SemiBold.ttf"
+weight = "600"
+style = "normal"
+
+[[theme.fontFaces]]
+family = "Poppins"
+url = "app/static/fonts/Poppins-Bold.ttf"
+weight = "700"
+style = "normal"
+
+[[theme.fontFaces]]
+family = "Poppins"
+url = "app/static/fonts/Poppins-MediumItalic.ttf"
+weight = "500"
+style = "italic"
+
+# 3. Warm paper and ink. The native primary color also supplies focus styling.
+[theme.light]
+primaryColor = "#211F1D"
+backgroundColor = "#F7F6F1"
+secondaryBackgroundColor = "#FFFDF8"
+textColor = "#211F1D"
+linkColor = "#8E321D"
+borderColor = "#81776D"
+codeBackgroundColor = "#EFEEE7"
+codeTextColor = "#211F1D"
+
+# 4. Warm charcoal and cream; preserve readable controls and visible edges.
+[theme.dark]
+primaryColor = "#F5F1E8"
+backgroundColor = "#151413"
+secondaryBackgroundColor = "#1F1D1B"
+textColor = "#F5F1E8"
+linkColor = "#FF9A78"
+borderColor = "#8A8176"
+codeBackgroundColor = "#2A2724"
+codeTextColor = "#F5F1E8"

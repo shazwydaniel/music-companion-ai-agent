@@ -1,0 +1,6 @@
+# 1. UI, Lab 5 agent runtime, and lesson-level vector retrieval.
+streamlit==1.67.0
+google-adk==2.14.0
+chromadb==1.5.9
+google-genai==2.34.0
+sqlglot==30.31.0

@@ -1,0 +1,13 @@
+{
+  "description": "Public calibration examples only. Production thresholds are derived from Gemini vectors; no hand-picked cosine cutoff is assumed valid.",
+  "checks": [
+    {"query": "What notes are in a C major triad?", "source_id": "major-minor-triads"},
+    {"query": "What is the I IV V chord progression in G major?", "source_id": "one-four-five-progressions"},
+    {"query": "How do I play a first inversion on piano?", "source_id": "keyboard-inversions"},
+    {"query": "How can I practice clean changes between G and C on guitar?", "source_id": "clean-guitar-changes"},
+    {"query": "When was the first commercial synthesizer released?", "source_id": null},
+    {"query": "Who won the latest Grammy for album of the year?", "source_id": null},
+    {"query": "What is today's weather in Kuala Lumpur?", "source_id": null},
+    {"query": "How do I bake a sourdough loaf?", "source_id": null}
+  ]
+}

@@ -1,0 +1,2125 @@
+{
+  "attribution": "48 sourced real works plus six original generated genre demos (54 songs / 108 instrument entries). 43 researched harmonic-reference works, five public-domain accompaniment studies and six original CC0-demo studies. Public-domain lyric editions and original generated lyrics have explicit source/reuse metadata. No full modern third-party lyrics or arrangements copied.",
+  "songs": [
+    {
+      "id": "birds-of-a-feather",
+      "title": "BIRDS OF A FEATHER",
+      "artist": "Billie Eilish",
+      "genre": "Pop",
+      "release_year": 2024,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://store.billieeilish.com/products/hit-me-hard-and-soft-standard-vinyl",
+      "chart_kind": "reference",
+      "key": "D major",
+      "capo": null,
+      "content": [
+        {
+          "name": "Core repeating chord cycle",
+          "lines": [
+            {
+              "chords": "D   Bm   Em   A"
+            }
+          ]
+        }
+      ],
+      "attribution": "Song credited to Billie Eilish. Harmonic facts researched from the linked educational/analysis source on 13 November 2026. No contemporary lyrics, melodic notation or complete third-party arrangement is redistributed. Pianamo identifies a four-chord repeating accompaniment. Basic chord sequence only; rhythm, voicings and lyrics are not transcribed.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=BIRDS+OF+A+FEATHER+Billie+Eilish",
+      "chord_source_url": "https://pianamo.app/en/songs/birds-of-a-feather",
+      "reference_note": "Pianamo identifies a four-chord repeating accompaniment. Basic chord sequence only; rhythm, voicings and lyrics are not transcribed.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "wildflower",
+      "title": "WILDFLOWER",
+      "artist": "Billie Eilish",
+      "genre": "Pop",
+      "release_year": 2024,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://store.billieeilish.com/products/hit-me-hard-and-soft-standard-vinyl",
+      "chart_kind": "reference",
+      "key": "F# minor",
+      "capo": null,
+      "content": [
+        {
+          "name": "Opening chord cycle · concert pitch",
+          "lines": [
+            {
+              "chords": "Dmaj7   C#m7   F#m   E"
+            }
+          ]
+        }
+      ],
+      "attribution": "Song credited to Billie Eilish. Harmonic facts researched from the linked educational/analysis source on 13 November 2026. No contemporary lyrics, melodic notation or complete third-party arrangement is redistributed. Concert-pitch equivalents of Bell & Co Music’s Em-shape / capo-2 intro. The pickup timing and full arrangement are not reproduced.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=WILDFLOWER+Billie+Eilish",
+      "chord_source_url": "https://www.bellandcomusic.com/wildflower-chords.html",
+      "reference_note": "Concert-pitch equivalents of Bell & Co Music’s Em-shape / capo-2 intro. The pickup timing and full arrangement are not reproduced.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "drop-dead",
+      "title": "drop dead",
+      "artist": "Olivia Rodrigo",
+      "genre": "Pop",
+      "release_year": 2026,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.universalmusic.ca/2026/04/17/olivia-rodrigo-releases-new-song-drop-dead/",
+      "chart_kind": "reference",
+      "key": "Ab major",
+      "capo": null,
+      "content": [
+        {
+          "name": "Reported chord vocabulary · not a progression",
+          "lines": [
+            {
+              "chords": "Ab   Db   Eb7   Fm"
+            }
+          ]
+        }
+      ],
+      "attribution": "Song credited to Olivia Rodrigo. Harmonic facts researched from the linked educational/analysis source on 13 November 2026. No contemporary lyrics, melodic notation or complete third-party arrangement is redistributed. Chordify recording analysis of the official music video. These are source-reported chord names, not an official transcription, complete arrangement or timing grid.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=drop+dead+Olivia+Rodrigo",
+      "chord_source_url": "https://chordify.net/chords/olivia-rodrigo-songs/track-1-chords",
+      "reference_note": "Chordify recording analysis of the official music video. These are source-reported chord names, not an official transcription, complete arrangement or timing grid.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "the-cure",
+      "title": "the cure",
+      "artist": "Olivia Rodrigo",
+      "genre": "Pop",
+      "release_year": 2026,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.universalmusic.ca/2026/05/22/olivia-rodrigo-releases-new-song-the-cure/",
+      "chart_kind": "reference",
+      "key": "Db major",
+      "capo": null,
+      "content": [
+        {
+          "name": "Concert-pitch chord vocabulary",
+          "lines": [
+            {
+              "chords": "Bbsus2   Dbmaj7   Gb   Db   Ebm7   Ab/C"
+            }
+          ]
+        }
+      ],
+      "attribution": "Song credited to Olivia Rodrigo. Harmonic facts researched from the linked educational/analysis source on 13 November 2026. No contemporary lyrics, melodic notation or complete third-party arrangement is redistributed. Pianamo’s original-key analysis. Chord vocabulary only; no song structure, rhythm, melodic notation or lyric alignment is copied.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=the+cure+Olivia+Rodrigo",
+      "chord_source_url": "https://pianamo.app/en/songs/the-cure",
+      "reference_note": "Pianamo’s original-key analysis. Chord vocabulary only; no song structure, rhythm, melodic notation or lyric alignment is copied.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "cry-for-me",
+      "title": "Cry For Me",
+      "artist": "The Weeknd",
+      "genre": "Pop",
+      "release_year": 2025,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.theweeknd.com/hurryuptomorrowcredits/",
+      "chart_kind": "reference",
+      "key": "G minor",
+      "capo": null,
+      "content": [
+        {
+          "name": "Reported chord vocabulary · not a progression",
+          "lines": [
+            {
+              "chords": "Gm   Eb   Cm   D"
+            }
+          ]
+        }
+      ],
+      "attribution": "Song credited to The Weeknd. Harmonic facts researched from the linked educational/analysis source on 13 November 2026. No contemporary lyrics, melodic notation or complete third-party arrangement is redistributed. Chordify analysis of the official music video. Source-reported harmonic vocabulary only; check voicings and timing against the recording.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Cry+For+Me+The+Weeknd",
+      "chord_source_url": "https://chordify.net/chords/the-weeknd-cry-for-me-official-music-video-theweekndvevo",
+      "reference_note": "Chordify analysis of the official music video. Source-reported harmonic vocabulary only; check voicings and timing against the recording.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "timeless",
+      "title": "Timeless",
+      "artist": "The Weeknd & Playboi Carti",
+      "genre": "Pop",
+      "release_year": 2024,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.theweeknd.com/hurryuptomorrowcredits/",
+      "chart_kind": "reference",
+      "key": "D major / B minor family",
+      "capo": null,
+      "content": [
+        {
+          "name": "Reported chord vocabulary · not a progression",
+          "lines": [
+            {
+              "chords": "F#m   Gmaj7   Bm   Em7"
+            }
+          ]
+        }
+      ],
+      "attribution": "Song credited to The Weeknd & Playboi Carti. Harmonic facts researched from the linked educational/analysis source on 13 November 2026. No contemporary lyrics, melodic notation or complete third-party arrangement is redistributed. Chordify recording analysis. Relative major/minor descriptions vary; this is a chord-name reference rather than a full transcription.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Timeless+The+Weeknd+%26+Playboi+Carti",
+      "chord_source_url": "https://chordify.net/chords/the-weeknd-playboi-carti-songs/timeless-chords",
+      "reference_note": "Chordify recording analysis. Relative major/minor descriptions vary; this is a chord-name reference rather than a full transcription.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "bohemian-rhapsody",
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "genre": "Rock",
+      "release_year": 1975,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.queenonline.com/queen",
+      "chart_kind": "reference",
+      "key": "Bb major · opening; later sections modulate",
+      "capo": null,
+      "content": [
+        {
+          "name": "Common chords · partial reference",
+          "lines": [
+            {
+              "chords": "Bb   Cm   Eb   Gm"
+            }
+          ]
+        }
+      ],
+      "attribution": "Song credited to Queen. Harmonic facts researched from the linked educational/analysis source on 13 November 2026. No contemporary lyrics, melodic notation or complete third-party arrangement is redistributed. Partial chord vocabulary reported by Chordify. This multi-section song uses many more harmonies and key changes; four chord names are not a complete arrangement.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Bohemian+Rhapsody+Queen",
+      "chord_source_url": "https://chordify.net/chords/queen-songs/bohemian-rhapsody-14-chords",
+      "reference_note": "Partial chord vocabulary reported by Chordify. This multi-section song uses many more harmonies and key changes; four chord names are not a complete arrangement.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "come-as-you-are",
+      "title": "Come As You Are",
+      "artist": "Nirvana",
+      "genre": "Rock",
+      "release_year": 1991,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.nirvana.com/album/nevermind/",
+      "chart_kind": "reference",
+      "key": "E minor · sounding pitch",
+      "capo": null,
+      "content": [
+        {
+          "name": "Guitar lesson shapes · D-standard tuning",
+          "lines": [
+            {
+              "chords": "F#5   A   B5   D5"
+            }
+          ]
+        }
+      ],
+      "attribution": "Song credited to Nirvana. Harmonic facts researched from the linked educational/analysis source on 13 November 2026. No contemporary lyrics, melodic notation or complete third-party arrangement is redistributed. Fender lesson chord shapes. The recording uses D-standard tuning; these written shapes sound a whole tone lower. This is a vocabulary reference, not a riff or complete arrangement.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Come+As+You+Are+Nirvana",
+      "chord_source_url": "https://www.fender.com/articles/songs/how-to-play-come-as-you-are",
+      "reference_note": "Fender lesson chord shapes. The recording uses D-standard tuning; these written shapes sound a whole tone lower. This is a vocabulary reference, not a riff or complete arrangement.",
+      "checked_on": "2026-11-13",
+      "arrangements": {
+        "Piano": {
+          "content": [
+            {
+              "name": "Concert-pitch chord vocabulary",
+              "lines": [
+                {
+                  "chords": "E5   G   A5   C5"
+                }
+              ]
+            }
+          ],
+          "reference_note": "Concert-pitch equivalents of Fender’s D-standard guitar shapes. A chord vocabulary reference, not a full arrangement."
+        }
+      },
+      "tuning": "D G C F A D (D standard)"
+    },
+    {
+      "id": "here-comes-the-sun",
+      "title": "Here Comes the Sun",
+      "artist": "The Beatles",
+      "genre": "Rock",
+      "release_year": 1969,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.thebeatles.com/here-comes-sun",
+      "chart_kind": "reference",
+      "key": "A major · sounding pitch",
+      "capo": 7,
+      "content": [
+        {
+          "name": "Guitar lesson shapes · capo 7",
+          "lines": [
+            {
+              "chords": "D   G/D   A7   E7"
+            }
+          ]
+        }
+      ],
+      "attribution": "Song credited to The Beatles. Harmonic facts researched from the linked educational/analysis source on 13 November 2026. No contemporary lyrics, melodic notation or complete third-party arrangement is redistributed. Fender’s lesson lists these guitar shapes. With capo 7 they sound in A; the melody, unusual-meter bridge and full arrangement are not reproduced.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Here+Comes+the+Sun+The+Beatles",
+      "chord_source_url": "https://www.fender.com/play/lessons/here-comes-the-sun",
+      "reference_note": "Fender’s lesson lists these guitar shapes. With capo 7 they sound in A; the melody, unusual-meter bridge and full arrangement are not reproduced.",
+      "checked_on": "2026-11-13",
+      "arrangements": {
+        "Piano": {
+          "content": [
+            {
+              "name": "Concert-pitch chord vocabulary",
+              "lines": [
+                {
+                  "chords": "A   D/A   E7   B7"
+                }
+              ]
+            }
+          ],
+          "reference_note": "Concert-pitch equivalents of Fender’s capo-7 guitar lesson shapes. A chord vocabulary reference, not a full arrangement."
+        }
+      }
+    },
+    {
+      "id": "take-five",
+      "title": "Take Five",
+      "artist": "The Dave Brubeck Quartet",
+      "genre": "Jazz",
+      "release_year": 1959,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.davebrubeck.com/time-out-piano-book",
+      "chart_kind": "reference",
+      "key": "Eb minor",
+      "capo": null,
+      "content": [
+        {
+          "name": "A-section vamp · 5/4",
+          "lines": [
+            {
+              "chords": "Ebm   Bbm7"
+            }
+          ]
+        }
+      ],
+      "attribution": "Song credited to The Dave Brubeck Quartet. Harmonic facts researched from the linked educational/analysis source on 13 November 2026. No contemporary lyrics, melodic notation or complete third-party arrangement is redistributed. Dirk Laukens identifies the A-section two-chord vamp. The bridge and guitar arrangement are not included; count the groove in 3+2.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Take+Five+The+Dave+Brubeck+Quartet",
+      "chord_source_url": "https://www.jazzguitar.be/blog/take-five-chords/",
+      "reference_note": "Dirk Laukens identifies the A-section two-chord vamp. The bridge and guitar arrangement are not included; count the groove in 3+2.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "so-what",
+      "title": "So What",
+      "artist": "Miles Davis",
+      "genre": "Jazz",
+      "release_year": 1959,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.milesdavis.com/albums/kind-of-blue/",
+      "chart_kind": "reference",
+      "key": "D Dorian / Eb Dorian",
+      "capo": null,
+      "content": [
+        {
+          "name": "Modal centers · not the introductory voicing",
+          "lines": [
+            {
+              "chords": "Dm7   Ebm7"
+            }
+          ]
+        }
+      ],
+      "attribution": "Song credited to Miles Davis. Harmonic facts researched from the linked educational/analysis source on 13 November 2026. No contemporary lyrics, melodic notation or complete third-party arrangement is redistributed. The jazz lesson describes So What’s D-minor and Eb-minor modal sections. This lists the harmonic centers, not Bill Evans’s intro or a voicing transcription.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=So+What+Miles+Davis",
+      "chord_source_url": "https://www.jazzguitar.be/blog/summertime-guitar-chord-study/",
+      "reference_note": "The jazz lesson describes So What’s D-minor and Eb-minor modal sections. This lists the harmonic centers, not Bill Evans’s intro or a voicing transcription.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "the-entertainer",
+      "title": "The Entertainer",
+      "artist": "Scott Joplin",
+      "genre": "Jazz",
+      "release_year": 1902,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.loc.gov/item/2023864238/",
+      "chart_kind": "reference",
+      "key": "C major · later sections modulate",
+      "capo": null,
+      "content": [
+        {
+          "name": "Reported chord vocabulary · partial",
+          "lines": [
+            {
+              "chords": "C   F   G   Dm"
+            }
+          ]
+        }
+      ],
+      "attribution": "Song credited to Scott Joplin. Harmonic facts researched from the linked educational/analysis source on 13 November 2026. No contemporary lyrics, melodic notation or complete third-party arrangement is redistributed. Partial vocabulary from a named piano recording’s Chordify analysis. Joplin’s complete public-domain score has substantially richer harmony; this is not that score.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=The+Entertainer+Scott+Joplin",
+      "chord_source_url": "https://chordify.net/chords/scott-joplin-the-entertainer-el-golpe-abiu-sempere-piano",
+      "reference_note": "Partial vocabulary from a named piano recording’s Chordify analysis. Joplin’s complete public-domain score has substantially richer harmony; this is not that score.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "too-sweet",
+      "title": "Too Sweet",
+      "artist": "Hozier",
+      "genre": "Indie / Folk",
+      "release_year": 2024,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://hozier.com/videos/",
+      "chart_kind": "reference",
+      "key": "G minor · sounding pitch",
+      "capo": 3,
+      "content": [
+        {
+          "name": "Guitar lesson vocabulary · capo 3",
+          "lines": [
+            {
+              "chords": "Em   D/F#   G   D   C   B7"
+            }
+          ]
+        }
+      ],
+      "attribution": "Song credited to Hozier. Harmonic facts researched from the linked educational/analysis source on 13 November 2026. No contemporary lyrics, melodic notation or complete third-party arrangement is redistributed. Andy Guitar’s beginner tutorial reports these shapes. Capo 3 gives the recording’s G-minor pitch family; this is not the bass riff or complete arrangement.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Too+Sweet+Hozier",
+      "chord_source_url": "https://www.youtube.com/watch?v=bm9XpA-c8AM",
+      "reference_note": "Andy Guitar’s beginner tutorial reports these shapes. Capo 3 gives the recording’s G-minor pitch family; this is not the bass riff or complete arrangement.",
+      "checked_on": "2026-11-13",
+      "arrangements": {
+        "Piano": {
+          "content": [
+            {
+              "name": "Concert-pitch chord vocabulary",
+              "lines": [
+                {
+                  "chords": "Gm   F/A   Bb   F   Eb   D7"
+                }
+              ]
+            }
+          ],
+          "reference_note": "Concert-pitch equivalents of Andy Guitar’s capo-3 shapes. A chord vocabulary reference, not a full arrangement."
+        }
+      }
+    },
+    {
+      "id": "skinny-love",
+      "title": "Skinny Love",
+      "artist": "Bon Iver",
+      "genre": "Indie / Folk",
+      "release_year": 2008,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://jagjaguwar.com/release/JAG115/",
+      "chart_kind": "reference",
+      "key": "C major / A minor family",
+      "capo": null,
+      "content": [
+        {
+          "name": "Reported chord vocabulary · simplified",
+          "lines": [
+            {
+              "chords": "Am   C   F   G"
+            }
+          ]
+        }
+      ],
+      "attribution": "Song credited to Bon Iver. Harmonic facts researched from the linked educational/analysis source on 13 November 2026. No contemporary lyrics, melodic notation or complete third-party arrangement is redistributed. Chordify’s analysis of Bon Iver’s music video. The original guitar uses alternate tuning and voicings; this is simplified harmonic vocabulary, not an exact guitar transcription.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Skinny+Love+Bon+Iver",
+      "chord_source_url": "https://chordify.net/chords/bon-iver-songs/skinny-love-3-chords",
+      "reference_note": "Chordify’s analysis of Bon Iver’s music video. The original guitar uses alternate tuning and voicings; this is simplified harmonic vocabulary, not an exact guitar transcription.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "amazing-grace",
+      "title": "Amazing Grace",
+      "artist": "John Newton / Traditional",
+      "genre": "Indie / Folk",
+      "release_year": 1835,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.loc.gov/collections/amazing-grace/articles-and-essays/dissemination-of-amazing-grace.html/",
+      "chart_kind": "inline",
+      "key": "G",
+      "capo": 0,
+      "content": [
+        {
+          "name": "Verse · slow 3/4",
+          "lines": [
+            {
+              "chords": "G                  C         G",
+              "lyrics": "Amazing grace! How sweet the sound"
+            },
+            {
+              "chords": "G                        D",
+              "lyrics": "That saved a wretch like me!"
+            },
+            {
+              "chords": "G                    C      G",
+              "lyrics": "I once was lost, but now am found;"
+            },
+            {
+              "chords": "G              D     G",
+              "lyrics": "Was blind, but now I see."
+            }
+          ]
+        },
+        {
+          "name": "Verse 2 · slow 3/4",
+          "lines": [
+            {
+              "chords": "G                          C        G",
+              "lyrics": "’Twas grace that taught my heart to fear,"
+            },
+            {
+              "chords": "G                  D",
+              "lyrics": "And grace my fears relieved;"
+            },
+            {
+              "chords": "G                     C     G",
+              "lyrics": "How precious did that grace appear"
+            },
+            {
+              "chords": "G          D     G",
+              "lyrics": "The hour I first believed!"
+            }
+          ]
+        },
+        {
+          "name": "Verse 3 · slow 3/4",
+          "lines": [
+            {
+              "chords": "G                     C         G",
+              "lyrics": "Through many dangers, toils and snares,"
+            },
+            {
+              "chords": "G              D",
+              "lyrics": "I have already come;"
+            },
+            {
+              "chords": "G                          C         G",
+              "lyrics": "’Tis grace hath brought me safe thus far,"
+            },
+            {
+              "chords": "G              D       G",
+              "lyrics": "And grace will lead me home."
+            }
+          ]
+        }
+      ],
+      "attribution": "Text: John Newton, 1779; tune: New Britain, traditional, published by William Walker in 1835. Public-domain underlying work. Riffin simplified accompaniment in G, CC0 1.0; not a transcription of a modern recording.",
+      "resource_url": null,
+      "chord_source_url": "https://hymnary.org/text/amazing_grace_how_sweet_the_sound",
+      "checked_on": "2026-11-13",
+      "reference_note": "John Newton’s public-domain text with Riffin’s own simplified G-major accompaniment. Three stanzas; not a modern recording transcription.",
+      "lyrics_license": "public-domain",
+      "lyrics_source_url": "https://hymnary.org/text/amazing_grace_how_sweet_the_sound"
+    },
+    {
+      "id": "get-lucky",
+      "title": "Get Lucky",
+      "artist": "Daft Punk feat. Pharrell Williams",
+      "genre": "Electronic",
+      "release_year": 2013,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.daftpunk.com/",
+      "chart_kind": "reference",
+      "key": "F# minor / B Dorian",
+      "capo": null,
+      "content": [
+        {
+          "name": "Core repeating chord cycle",
+          "lines": [
+            {
+              "chords": "Bm   D   F#m   E"
+            }
+          ]
+        }
+      ],
+      "attribution": "Song credited to Daft Punk feat. Pharrell Williams. Harmonic facts researched from the linked educational/analysis source on 13 November 2026. No contemporary lyrics, melodic notation or complete third-party arrangement is redistributed. Spy Tunes identifies this repeating four-chord loop. Only the basic harmony is listed; Nile Rodgers’s rhythmic guitar part and lyrics are not copied.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Get+Lucky+Daft+Punk+feat.+Pharrell+Williams",
+      "chord_source_url": "https://spytunes.com/get-lucky-chords/",
+      "reference_note": "Spy Tunes identifies this repeating four-chord loop. Only the basic harmony is listed; Nile Rodgers’s rhythmic guitar part and lyrics are not copied.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "wake-me-up",
+      "title": "Wake Me Up",
+      "artist": "Avicii",
+      "genre": "Electronic",
+      "release_year": 2013,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://music.apple.com/us/song/1810269985",
+      "chart_kind": "reference",
+      "key": "B minor · sounding pitch",
+      "capo": 2,
+      "content": [
+        {
+          "name": "Guitar lesson vocabulary · capo 2",
+          "lines": [
+            {
+              "chords": "Am   F   C   G   E"
+            }
+          ]
+        }
+      ],
+      "attribution": "Song credited to Avicii. Harmonic facts researched from the linked educational/analysis source on 13 November 2026. No contemporary lyrics, melodic notation or complete third-party arrangement is redistributed. JustinGuitar’s lesson uses these capo-2 shapes. This is the reported vocabulary, not the complete chorus rhythm or arrangement.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Wake+Me+Up+Avicii",
+      "chord_source_url": "https://www.justinguitar.com/songs/avicii-wake-me-up-chords-tabs-guitar-lesson-bs-626",
+      "reference_note": "JustinGuitar’s lesson uses these capo-2 shapes. This is the reported vocabulary, not the complete chorus rhythm or arrangement.",
+      "checked_on": "2026-11-13",
+      "arrangements": {
+        "Piano": {
+          "content": [
+            {
+              "name": "Concert-pitch chord vocabulary",
+              "lines": [
+                {
+                  "chords": "Bm   G   D   A   F#"
+                }
+              ]
+            }
+          ],
+          "reference_note": "Concert-pitch equivalents of JustinGuitar’s capo-2 shapes. A chord vocabulary reference, not a full arrangement."
+        }
+      }
+    },
+    {
+      "id": "ode-to-joy",
+      "title": "Ode to Joy",
+      "artist": "Ludwig van Beethoven",
+      "genre": "Classical",
+      "release_year": 1824,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://imslp.org/wiki/Symphony_No.9,_Op.125_(Beethoven,_Ludwig_van)",
+      "chart_kind": "inline",
+      "key": "C",
+      "capo": 0,
+      "content": [
+        {
+          "name": "Theme · four beats per bar",
+          "lines": [
+            {
+              "chords": "| C     | G     | G     | C     |"
+            },
+            {
+              "chords": "| C     | G     | G     | C     |"
+            },
+            {
+              "chords": "| G     | C     | G     | C     |"
+            },
+            {
+              "chords": "| C     | G     | G     | C     |"
+            }
+          ]
+        }
+      ],
+      "attribution": "Ludwig van Beethoven, Symphony No. 9 finale theme, 1824. Public-domain composition. Riffin simplified accompaniment study in C, CC0 1.0; chord-only practice, not the orchestral score.",
+      "resource_url": null
+    },
+    {
+      "id": "canon-in-d",
+      "title": "Canon in D",
+      "artist": "Johann Pachelbel",
+      "genre": "Classical",
+      "release_year": null,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://imslp.org/wiki/Canon_and_Gigue_in_D_major,_P.37_(Pachelbel,_Johann)",
+      "chart_kind": "inline",
+      "key": "D",
+      "capo": 0,
+      "content": [
+        {
+          "name": "Repeating ground · one chord per bar",
+          "lines": [
+            {
+              "chords": "| D     | A     | Bm    | F#m   | G     | D     | G     | A     |"
+            }
+          ]
+        }
+      ],
+      "attribution": "Johann Pachelbel, Canon in D, P.37. Public-domain composition. Riffin chord-only ground-bass accompaniment study, CC0 1.0; not a complete score or a modern arrangement.",
+      "resource_url": null
+    },
+    {
+      "id": "clair-de-lune",
+      "title": "Clair de lune",
+      "artist": "Claude Debussy",
+      "genre": "Classical",
+      "release_year": 1905,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://imslp.org/wiki/Suite_bergamasque_(Debussy,_Claude)",
+      "chart_kind": "reference",
+      "key": "Db major",
+      "capo": null,
+      "content": [
+        {
+          "name": "Implied harmonic centers · analytical reference",
+          "lines": [
+            {
+              "chords": "Db   Fm"
+            }
+          ]
+        }
+      ],
+      "attribution": "Song credited to Claude Debussy. Harmonic facts researched from the linked educational/analysis source on 13 November 2026. No contemporary lyrics, melodic notation or complete third-party arrangement is redistributed. PianoTV discusses an implied Db-major opening and F-minor return. These are analytical centers only, not a two-chord progression or playable reduction of Debussy’s score.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Clair+de+lune+Claude+Debussy",
+      "chord_source_url": "https://www.pianotv.net/2016/05/analysis-of-clair-de-lune/",
+      "reference_note": "PianoTV discusses an implied Db-major opening and F-minor return. These are analytical centers only, not a two-chord progression or playable reduction of Debussy’s score.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "drivers-license",
+      "title": "drivers license",
+      "artist": "Olivia Rodrigo",
+      "genre": "Pop",
+      "release_year": 2021,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.fender.com/play/lessons/song-drivers-license-acoustic",
+      "chart_kind": "reference",
+      "key": "G major (simplified lesson)",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "G   Em   C"
+            }
+          ]
+        }
+      ],
+      "attribution": "drivers license credited to Olivia Rodrigo. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Fender’s simplified acoustic lesson uses these three chords. This is the tutorial key, not the original recording key; no bridge, timing or lyrics are copied.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=drivers+license+Olivia+Rodrigo",
+      "chord_source_url": "https://www.fender.com/play/lessons/song-drivers-license-acoustic",
+      "reference_note": "Fender’s simplified acoustic lesson uses these three chords. This is the tutorial key, not the original recording key; no bridge, timing or lyrics are copied.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "good-4-u",
+      "title": "good 4 u",
+      "artist": "Olivia Rodrigo",
+      "genre": "Pop",
+      "release_year": 2021,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.andyguitar.co.uk/videos/olivia-rodrigo-good-4-u",
+      "chart_kind": "reference",
+      "key": "F# minor / A major",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "D   A   E   F#m"
+            }
+          ]
+        }
+      ],
+      "attribution": "good 4 u credited to Olivia Rodrigo. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Andy Guitar identifies these core chords. Chord vocabulary only, not the full verse/outro harmony, rhythmic part or arrangement.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=good+4+u+Olivia+Rodrigo",
+      "chord_source_url": "https://www.andyguitar.co.uk/videos/olivia-rodrigo-good-4-u",
+      "reference_note": "Andy Guitar identifies these core chords. Chord vocabulary only, not the full verse/outro harmony, rhythmic part or arrangement.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "wonderwall",
+      "title": "Wonderwall",
+      "artist": "Oasis",
+      "genre": "Rock",
+      "release_year": 1995,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.fender.com/play/lessons/wonderwall-intro-verse",
+      "chart_kind": "reference",
+      "key": "F# minor (Em-family shapes, capo 2)",
+      "capo": 2,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "Em7   G   Dsus4   A7sus4   Cadd9"
+            }
+          ]
+        }
+      ],
+      "attribution": "Wonderwall credited to Oasis. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Fender’s intro/verse lesson lists these guitar shapes. Guitar uses capo 2; Piano names are concert-pitch equivalents. This is partial vocabulary, not a full chart.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Wonderwall+Oasis",
+      "chord_source_url": "https://www.fender.com/play/lessons/wonderwall-intro-verse",
+      "reference_note": "Fender’s intro/verse lesson lists these guitar shapes. Guitar uses capo 2; Piano names are concert-pitch equivalents. This is partial vocabulary, not a full chart.",
+      "checked_on": "2026-11-13",
+      "arrangements": {
+        "Piano": {
+          "key": "F# minor",
+          "content": [
+            {
+              "name": "Concert-pitch equivalents · partial vocabulary",
+              "lines": [
+                {
+                  "chords": "F#m7   A   Esus4   B7sus4   Dadd9"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "californication",
+      "title": "Californication",
+      "artist": "Red Hot Chili Peppers",
+      "genre": "Rock",
+      "release_year": 1999,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.fender.com/play/lessons/californication",
+      "chart_kind": "reference",
+      "key": "A minor",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "Am   F5   Fmaj7   C   G   Dm"
+            }
+          ]
+        }
+      ],
+      "attribution": "Californication credited to Red Hot Chili Peppers. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Fender reports these chord names. The distinctive picking pattern, timing, solo and complete arrangement are not reproduced.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Californication+Red+Hot+Chili+Peppers",
+      "chord_source_url": "https://www.fender.com/play/lessons/californication",
+      "reference_note": "Fender reports these chord names. The distinctive picking pattern, timing, solo and complete arrangement are not reproduced.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "sweet-home-alabama",
+      "title": "Sweet Home Alabama",
+      "artist": "Lynyrd Skynyrd",
+      "genre": "Rock",
+      "release_year": 1974,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://chordify.net/pages/songs-explained/chords-tabs-sweet-home-alabama/",
+      "chart_kind": "reference",
+      "key": "D Mixolydian / G-major family",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "D   C   G"
+            }
+          ]
+        }
+      ],
+      "attribution": "Sweet Home Alabama credited to Lynyrd Skynyrd. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Chordify’s own lesson identifies the core D–C–G movement. This is a short harmonic fact; it omits the riff, fills and other sections. Tonal-center descriptions vary.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Sweet+Home+Alabama+Lynyrd+Skynyrd",
+      "chord_source_url": "https://chordify.net/pages/songs-explained/chords-tabs-sweet-home-alabama/",
+      "reference_note": "Chordify’s own lesson identifies the core D–C–G movement. This is a short harmonic fact; it omits the riff, fills and other sections. Tonal-center descriptions vary.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "knockin-on-heavens-door",
+      "title": "Knockin’ on Heaven’s Door",
+      "artist": "Bob Dylan",
+      "genre": "Rock",
+      "release_year": 1973,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.fender.com/play/lessons/song-knockin-on-heavens-door",
+      "chart_kind": "reference",
+      "key": "G major",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "G   D   Am   C"
+            }
+          ]
+        }
+      ],
+      "attribution": "Knockin’ on Heaven’s Door credited to Bob Dylan. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Four chord names from Fender’s simplified lesson. This is a vocabulary reference, not a transcription of any particular recording.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Knockin%E2%80%99+on+Heaven%E2%80%99s+Door+Bob+Dylan",
+      "chord_source_url": "https://www.fender.com/play/lessons/song-knockin-on-heavens-door",
+      "reference_note": "Four chord names from Fender’s simplified lesson. This is a vocabulary reference, not a transcription of any particular recording.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "hotel-california",
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "genre": "Rock",
+      "release_year": 1976,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://spytunes.com/hotel-california-chords/",
+      "chart_kind": "reference",
+      "key": "B minor (Em-family shapes, capo 7)",
+      "capo": 7,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "Em   B7/D#   Dsus2   A9/C#"
+            }
+          ]
+        }
+      ],
+      "attribution": "Hotel California credited to Eagles. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Partial opening vocabulary from Spy Tunes’ capo-7 lesson. Piano translates these shapes to concert pitch. The rest of the harmony, rhythm, fills and solo are omitted; recordings may use a slightly different tuning reference.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Hotel+California+Eagles",
+      "chord_source_url": "https://spytunes.com/hotel-california-chords/",
+      "reference_note": "Partial opening vocabulary from Spy Tunes’ capo-7 lesson. Piano translates these shapes to concert pitch. The rest of the harmony, rhythm, fills and solo are omitted; recordings may use a slightly different tuning reference.",
+      "checked_on": "2026-11-13",
+      "arrangements": {
+        "Piano": {
+          "key": "B minor",
+          "content": [
+            {
+              "name": "Concert-pitch equivalents · partial vocabulary",
+              "lines": [
+                {
+                  "chords": "Bm   F#7/A#   Asus2   E9/G#"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "riptide",
+      "title": "Riptide",
+      "artist": "Vance Joy",
+      "genre": "Indie / Folk",
+      "release_year": 2013,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.justinguitar.com/songs/vance-joy-riptide-chords-tabs-guitar-lesson-sg-151",
+      "chart_kind": "reference",
+      "key": "A minor (lesson key)",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "Am   G   C"
+            }
+          ]
+        }
+      ],
+      "attribution": "Riptide credited to Vance Joy. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. JustinGuitar’s guitar lesson identifies these three core chord shapes. This is a simplified lesson-key vocabulary reference, not a claim to match the original recording pitch; the bridge adds other chords.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Riptide+Vance+Joy",
+      "chord_source_url": "https://www.justinguitar.com/songs/vance-joy-riptide-chords-tabs-guitar-lesson-sg-151",
+      "reference_note": "JustinGuitar’s guitar lesson identifies these three core chord shapes. This is a simplified lesson-key vocabulary reference, not a claim to match the original recording pitch; the bridge adds other chords.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "fast-car",
+      "title": "Fast Car",
+      "artist": "Tracy Chapman",
+      "genre": "Indie / Folk",
+      "release_year": 1988,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.jonmaclennan.com/blog/fast-car-guitar-lesson",
+      "chart_kind": "reference",
+      "key": "A major (C-family shapes, capo 2)",
+      "capo": 2,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "C   G   Em   D"
+            }
+          ]
+        }
+      ],
+      "attribution": "Fast Car credited to Tracy Chapman. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Jon MacLennan identifies these four primary guitar shapes; Spy Tunes corroborates capo 2 (see research ledger). Piano uses concert-pitch equivalents. This omits the distinctive fingerpicked voicings/riff and is not a full transcription.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Fast+Car+Tracy+Chapman",
+      "chord_source_url": "https://www.jonmaclennan.com/blog/fast-car-guitar-lesson",
+      "reference_note": "Jon MacLennan identifies these four primary guitar shapes; Spy Tunes corroborates capo 2 (see research ledger). Piano uses concert-pitch equivalents. This omits the distinctive fingerpicked voicings/riff and is not a full transcription.",
+      "checked_on": "2026-11-13",
+      "arrangements": {
+        "Piano": {
+          "key": "A major",
+          "content": [
+            {
+              "name": "Concert-pitch equivalents · partial vocabulary",
+              "lines": [
+                {
+                  "chords": "D   A   F#m   E"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hallelujah",
+      "title": "Hallelujah",
+      "artist": "Leonard Cohen",
+      "genre": "Indie / Folk",
+      "release_year": 1984,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.justinguitar.com/songs/leonard-cohen-hallelujah-chords-tabs-guitar-lesson-bs-801",
+      "chart_kind": "reference",
+      "key": "C major (lesson key)",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "C   Am   F   G   E"
+            }
+          ]
+        }
+      ],
+      "attribution": "Hallelujah credited to Leonard Cohen. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. JustinGuitar’s tutorial identifies these chord shapes. Different recorded versions use other keys and voicings; only basic vocabulary is retained, with no modern lyrics or complete form.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Hallelujah+Leonard+Cohen",
+      "chord_source_url": "https://www.justinguitar.com/songs/leonard-cohen-hallelujah-chords-tabs-guitar-lesson-bs-801",
+      "reference_note": "JustinGuitar’s tutorial identifies these chord shapes. Different recorded versions use other keys and voicings; only basic vocabulary is retained, with no modern lyrics or complete form.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "faded",
+      "title": "Faded",
+      "artist": "Alan Walker",
+      "genre": "Electronic",
+      "release_year": 2015,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://chordify.net/chords/alan-walker-songs/faded-2-chords",
+      "chart_kind": "reference",
+      "key": "D# minor",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "D#m   B   F#   C#"
+            }
+          ]
+        }
+      ],
+      "attribution": "Faded credited to Alan Walker. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Chordify reports this four-chord vocabulary; Hooktheory corroborates D-sharp minor. Automated recording analysis is a reference, not an official score or timing grid.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Faded+Alan+Walker",
+      "chord_source_url": "https://chordify.net/chords/alan-walker-songs/faded-2-chords",
+      "reference_note": "Chordify reports this four-chord vocabulary; Hooktheory corroborates D-sharp minor. Automated recording analysis is a reference, not an official score or timing grid.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "titanium",
+      "title": "Titanium",
+      "artist": "David Guetta feat. Sia",
+      "genre": "Electronic",
+      "release_year": 2011,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://chordify.net/chords/david-guetta-titanium-feat-sia-official-audio-david-guetta-sia",
+      "chart_kind": "reference",
+      "key": "Eb major",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "Gm   Cm   Ab   Bb"
+            }
+          ]
+        }
+      ],
+      "attribution": "Titanium credited to David Guetta feat. Sia. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Chordify’s official-audio analysis reports these chord names. This partial vocabulary omits other chords, inversions, rhythm and song structure; it is not a complete accompaniment.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Titanium+David+Guetta+feat.+Sia",
+      "chord_source_url": "https://chordify.net/chords/david-guetta-titanium-feat-sia-official-audio-david-guetta-sia",
+      "reference_note": "Chordify’s official-audio analysis reports these chord names. This partial vocabulary omits other chords, inversions, rhythm and song structure; it is not a complete accompaniment.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "levels",
+      "title": "Levels",
+      "artist": "Avicii",
+      "genre": "Electronic",
+      "release_year": 2011,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://chordify.net/chords/avicii-songs/levels-instrumental-radio-edit-chords",
+      "chart_kind": "reference",
+      "key": "E major / C# minor",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "C#m   E   B   A"
+            }
+          ]
+        }
+      ],
+      "attribution": "Levels credited to Avicii. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Chordify’s instrumental radio-edit analysis identifies this chord vocabulary. The named edit is the source; this is not a full production, sample or timed arrangement.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Levels+Avicii",
+      "chord_source_url": "https://chordify.net/chords/avicii-songs/levels-instrumental-radio-edit-chords",
+      "reference_note": "Chordify’s instrumental radio-edit analysis identifies this chord vocabulary. The named edit is the source; this is not a full production, sample or timed arrangement.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "one-more-time",
+      "title": "One More Time",
+      "artist": "Daft Punk",
+      "genre": "Electronic",
+      "release_year": 2000,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://chordify.net/chords/daft-punk-songs/one-more-time-chords",
+      "chart_kind": "reference",
+      "key": "B minor / D-major family",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "Gmaj7   A   F#m7"
+            }
+          ]
+        }
+      ],
+      "attribution": "One More Time credited to Daft Punk. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Partial chord vocabulary reported for the official video. The analysis services disagree on the key label (Hooktheory: B minor); no claim of a complete harmonic or sampled-production transcription is made.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=One+More+Time+Daft+Punk",
+      "chord_source_url": "https://chordify.net/chords/daft-punk-songs/one-more-time-chords",
+      "reference_note": "Partial chord vocabulary reported for the official video. The analysis services disagree on the key label (Hooktheory: B minor); no claim of a complete harmonic or sampled-production transcription is made.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "clarity",
+      "title": "Clarity",
+      "artist": "Zedd feat. Foxes",
+      "genre": "Electronic",
+      "release_year": 2012,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://chordify.net/chords/zedd-feat-foxes-songs/clarity-2-chords",
+      "chart_kind": "reference",
+      "key": "Ab major / F minor",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "Eb   Fm   Cm   Db"
+            }
+          ]
+        }
+      ],
+      "attribution": "Clarity credited to Zedd feat. Foxes. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Partial vocabulary from Chordify’s named recording analysis, not a progression or full arrangement. The single followed the 2012 album in 2013; added tones and other chords are omitted.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Clarity+Zedd+feat.+Foxes",
+      "chord_source_url": "https://chordify.net/chords/zedd-feat-foxes-songs/clarity-2-chords",
+      "reference_note": "Partial vocabulary from Chordify’s named recording analysis, not a progression or full arrangement. The single followed the 2012 album in 2013; added tones and other chords are omitted.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "dont-you-worry-child",
+      "title": "Don’t You Worry Child",
+      "artist": "Swedish House Mafia feat. John Martin",
+      "genre": "Electronic",
+      "release_year": 2012,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://musiccreator.com/blogs/guides/edm-piano-chord-progressions",
+      "chart_kind": "reference",
+      "key": "D major / B minor",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "A   Bm   D   G"
+            }
+          ]
+        }
+      ],
+      "attribution": "Don’t You Worry Child credited to Swedish House Mafia feat. John Martin. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. The educational breakdown identifies these chord names. Basic vocabulary only: not a bar grid, section-by-section form, synth voicing or full accompaniment.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Don%E2%80%99t+You+Worry+Child+Swedish+House+Mafia+feat.+John+Martin",
+      "chord_source_url": "https://musiccreator.com/blogs/guides/edm-piano-chord-progressions",
+      "reference_note": "The educational breakdown identifies these chord names. Basic vocabulary only: not a bar grid, section-by-section form, synth voicing or full accompaniment.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "autumn-leaves",
+      "title": "Autumn Leaves",
+      "artist": "Joseph Kosma",
+      "genre": "Jazz",
+      "release_year": 1945,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.jazzguitar.be/blog/autumn-leaves-melody-and-solo/",
+      "chart_kind": "reference",
+      "key": "E minor (lesson key)",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "Am7   D7   Gmaj7"
+            }
+          ]
+        }
+      ],
+      "attribution": "Autumn Leaves credited to Joseph Kosma. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Dirk Laukens analyzes major ii–V–I movement in G and its relative E minor. These three chords show only that major cadence, not the full form or melody. Other performances use different keys.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Autumn+Leaves+Joseph+Kosma",
+      "chord_source_url": "https://www.jazzguitar.be/blog/autumn-leaves-melody-and-solo/",
+      "reference_note": "Dirk Laukens analyzes major ii–V–I movement in G and its relative E minor. These three chords show only that major cadence, not the full form or melody. Other performances use different keys.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "fly-me-to-the-moon",
+      "title": "Fly Me to the Moon",
+      "artist": "Bart Howard",
+      "genre": "Jazz",
+      "release_year": 1954,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.jazzguitar.be/blog/fly-me-to-the-moon/",
+      "chart_kind": "reference",
+      "key": "C major (lesson key)",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "Bm7b5   E7   Am7"
+            }
+          ]
+        }
+      ],
+      "attribution": "Fly Me to the Moon credited to Bart Howard. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Dirk Laukens identifies this minor ii–V–i cadence within the C-major lesson. This is a short harmonic example, not the complete standard; the original key differs.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Fly+Me+to+the+Moon+Bart+Howard",
+      "chord_source_url": "https://www.jazzguitar.be/blog/fly-me-to-the-moon/",
+      "reference_note": "Dirk Laukens identifies this minor ii–V–i cadence within the C-major lesson. This is a short harmonic example, not the complete standard; the original key differs.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "blue-bossa",
+      "title": "Blue Bossa",
+      "artist": "Kenny Dorham",
+      "genre": "Jazz",
+      "release_year": 1963,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.jazzguitar.be/blog/blue-bossa/",
+      "chart_kind": "reference",
+      "key": "C minor",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "Cm7   Fm7   G7"
+            }
+          ]
+        }
+      ],
+      "attribution": "Blue Bossa credited to Kenny Dorham. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Partial vocabulary discussed in Dirk Laukens’ lesson. The full tune also modulates to Db major. These names are not the complete changes or an arranged lead sheet.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Blue+Bossa+Kenny+Dorham",
+      "chord_source_url": "https://www.jazzguitar.be/blog/blue-bossa/",
+      "reference_note": "Partial vocabulary discussed in Dirk Laukens’ lesson. The full tune also modulates to Db major. These names are not the complete changes or an arranged lead sheet.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "all-of-me",
+      "title": "All of Me",
+      "artist": "Gerald Marks & Seymour Simons",
+      "genre": "Jazz",
+      "release_year": 1931,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.jazzguitar.be/blog/all-of-me/",
+      "chart_kind": "reference",
+      "key": "C major (lesson key)",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "Cmaj7   E7   A7"
+            }
+          ]
+        }
+      ],
+      "attribution": "All of Me credited to Gerald Marks & Seymour Simons. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Dirk Laukens’ analysis identifies this opening tonic/secondary-dominant movement. Three chord names only, not the full form or lyrics; the original recording key differs.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=All+of+Me+Gerald+Marks+%26+Seymour+Simons",
+      "chord_source_url": "https://www.jazzguitar.be/blog/all-of-me/",
+      "reference_note": "Dirk Laukens’ analysis identifies this opening tonic/secondary-dominant movement. Three chord names only, not the full form or lyrics; the original recording key differs.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "take-the-a-train",
+      "title": "Take the “A” Train",
+      "artist": "Billy Strayhorn",
+      "genre": "Jazz",
+      "release_year": 1941,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.jazzguitar.be/blog/take-the-a-train",
+      "chart_kind": "reference",
+      "key": "C major (lesson key)",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "Cmaj7   D7#11"
+            }
+          ]
+        }
+      ],
+      "attribution": "Take the “A” Train credited to Billy Strayhorn. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Dirk Laukens describes the opening tonic and raised-fourth dominant color. This is partial opening vocabulary, not a two-chord reduction of the whole tune or the copyrighted melody.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Take+the+%E2%80%9CA%E2%80%9D+Train+Billy+Strayhorn",
+      "chord_source_url": "https://www.jazzguitar.be/blog/take-the-a-train",
+      "reference_note": "Dirk Laukens describes the opening tonic and raised-fourth dominant color. This is partial opening vocabulary, not a two-chord reduction of the whole tune or the copyrighted melody.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "fur-elise",
+      "title": "Für Elise",
+      "artist": "Ludwig van Beethoven",
+      "genre": "Classical",
+      "release_year": 1810,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.pianotv.net/2018/10/beethovens-fur-elise-the-stairway-to-heaven-of-piano/",
+      "chart_kind": "reference",
+      "key": "A minor",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "Am   E"
+            }
+          ]
+        }
+      ],
+      "attribution": "Für Elise credited to Ludwig van Beethoven. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. PianoTV identifies A minor and E major in the opening accompaniment. Two harmonic centers only, not a playable full reduction. Instrumental work: no song lyrics; Guitar uses these same concert-pitch harmonic facts.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=F%C3%BCr+Elise+Ludwig+van+Beethoven",
+      "chord_source_url": "https://www.pianotv.net/2018/10/beethovens-fur-elise-the-stairway-to-heaven-of-piano/",
+      "reference_note": "PianoTV identifies A minor and E major in the opening accompaniment. Two harmonic centers only, not a playable full reduction. Instrumental work: no song lyrics; Guitar uses these same concert-pitch harmonic facts.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "moonlight-sonata",
+      "title": "Moonlight Sonata · I",
+      "artist": "Ludwig van Beethoven",
+      "genre": "Classical",
+      "release_year": 1801,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://www.pianote.com/blog/?p=3241",
+      "chart_kind": "reference",
+      "key": "C# minor",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "C#m/G#   D#dim7/G#"
+            }
+          ]
+        }
+      ],
+      "attribution": "Moonlight Sonata · I credited to Ludwig van Beethoven. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Pianote labels these harmonies in the first-movement tutorial. This is partial vocabulary, not the opening chord order or a full reduction. Instrumental work: no lyrics; Guitar entry is a harmony reference, not a guitar score.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Moonlight+Sonata+%C2%B7+I+Ludwig+van+Beethoven",
+      "chord_source_url": "https://www.pianote.com/blog/?p=3241",
+      "reference_note": "Pianote labels these harmonies in the first-movement tutorial. This is partial vocabulary, not the opening chord order or a full reduction. Instrumental work: no lyrics; Guitar entry is a harmony reference, not a guitar score.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "gymnopedie-no-1",
+      "title": "Gymnopédie No. 1",
+      "artist": "Erik Satie",
+      "genre": "Classical",
+      "release_year": 1888,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://piano.org/songs/gymnopedie-no-1/",
+      "chart_kind": "reference",
+      "key": "D major",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "Gmaj7   Dmaj7"
+            }
+          ]
+        }
+      ],
+      "attribution": "Gymnopédie No. 1 credited to Erik Satie. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. The lesson identifies the opening alternating major sevenths. Only the opening harmony is represented; no melody or full score is reproduced. Instrumental work: no lyrics; Guitar entry is a concert-pitch harmony reference.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Gymnop%C3%A9die+No.+1+Erik+Satie",
+      "chord_source_url": "https://piano.org/songs/gymnopedie-no-1/",
+      "reference_note": "The lesson identifies the opening alternating major sevenths. Only the opening harmony is represented; no melody or full score is reproduced. Instrumental work: no lyrics; Guitar entry is a concert-pitch harmony reference.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "prelude-in-c",
+      "title": "Prelude in C major · BWV 846",
+      "artist": "Johann Sebastian Bach",
+      "genre": "Classical",
+      "release_year": 1722,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://jamescarterpiano.com/songs/bach-prelude-c/",
+      "chart_kind": "reference",
+      "key": "C major",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "C   Dm7/C   G7/B"
+            }
+          ]
+        }
+      ],
+      "attribution": "Prelude in C major · BWV 846 credited to Johann Sebastian Bach. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. Partial harmonic vocabulary identified in the piano lesson. Inversions matter; this is not a full progression, arpeggio transcription or guitar arrangement. Instrumental work: no lyrics.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Prelude+in+C+major+%C2%B7+BWV+846+Johann+Sebastian+Bach",
+      "chord_source_url": "https://jamescarterpiano.com/songs/bach-prelude-c/",
+      "reference_note": "Partial harmonic vocabulary identified in the piano lesson. Inversions matter; this is not a full progression, arpeggio transcription or guitar arrangement. Instrumental work: no lyrics.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "turkish-march",
+      "title": "Turkish March · Rondo alla turca",
+      "artist": "Wolfgang Amadeus Mozart",
+      "genre": "Classical",
+      "release_year": 1784,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://piano.org/songs/turkish-march-k331/",
+      "chart_kind": "reference",
+      "key": "A minor / A major",
+      "capo": null,
+      "content": [
+        {
+          "name": "Researched harmonic reference · see scope below",
+          "lines": [
+            {
+              "chords": "Am   A"
+            }
+          ]
+        }
+      ],
+      "attribution": "Turkish March · Rondo alla turca credited to Wolfgang Amadeus Mozart. Chord facts researched 13 November 2026. No modern lyrics, melodic notation or complete third-party arrangement copied. The lesson identifies contrasting A-minor and A-major regions. These are tonal centers, not a playable two-chord arrangement. The year refers to publication of K.331. Instrumental work: no lyrics; Guitar entry is analytical only.",
+      "resource_url": "https://www.musicnotes.com/search/go?w=Turkish+March+%C2%B7+Rondo+alla+turca+Wolfgang+Amadeus+Mozart",
+      "chord_source_url": "https://piano.org/songs/turkish-march-k331/",
+      "reference_note": "The lesson identifies contrasting A-minor and A-major regions. These are tonal centers, not a playable two-chord arrangement. The year refers to publication of K.331. Instrumental work: no lyrics; Guitar entry is analytical only.",
+      "checked_on": "2026-11-13"
+    },
+    {
+      "id": "auld-lang-syne",
+      "title": "Auld Lang Syne",
+      "artist": "Robert Burns / Traditional",
+      "genre": "Indie / Folk",
+      "release_year": 1788,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://en.wikisource.org/wiki/The_Canadian_Soldiers%27_Song_Book/Auld_Lang_Syne",
+      "chart_kind": "inline",
+      "key": "G major",
+      "capo": null,
+      "content": [
+        {
+          "name": "Verse · 1918 songbook edition",
+          "lines": [
+            {
+              "chords": "G                           D",
+              "lyrics": "Should auld acquaintance be forgot,"
+            },
+            {
+              "chords": "G                    C",
+              "lyrics": "And never brought to min'?"
+            },
+            {
+              "chords": "G                           D",
+              "lyrics": "Should auld acquaintance be forgot,"
+            },
+            {
+              "chords": "C               D         G",
+              "lyrics": "And the days o’ auld lang syne?"
+            }
+          ]
+        },
+        {
+          "name": "Chorus · 1918 songbook edition",
+          "lines": [
+            {
+              "chords": "G                      D",
+              "lyrics": "For auld lang syne, my dear"
+            },
+            {
+              "chords": "G             C",
+              "lyrics": "For auld lang syne;"
+            },
+            {
+              "chords": "G                   D",
+              "lyrics": "We’ll tak’ a cup o’ kindness yet,"
+            },
+            {
+              "chords": "C        D    G",
+              "lyrics": "For auld lang syne."
+            }
+          ]
+        }
+      ],
+      "attribution": "Public-domain Robert Burns/traditional text, verse and chorus printed in the 1918 Canadian Soldiers’ Song Book. Curly apostrophes are typography only. Riffin’ supplies an original simplified G-major accompaniment, not a historical or modern recorded arrangement.",
+      "chord_source_url": "https://en.wikisource.org/wiki/The_Canadian_Soldiers%27_Song_Book/Auld_Lang_Syne",
+      "reference_note": "Public-domain Robert Burns/traditional text, verse and chorus printed in the 1918 Canadian Soldiers’ Song Book. Curly apostrophes are typography only. Riffin’ supplies an original simplified G-major accompaniment, not a historical or modern recorded arrangement.",
+      "checked_on": "2026-11-13",
+      "lyrics_license": "public-domain",
+      "lyrics_source_url": "https://en.wikisource.org/wiki/The_Canadian_Soldiers%27_Song_Book/Auld_Lang_Syne"
+    },
+    {
+      "id": "greensleeves",
+      "title": "Greensleeves",
+      "artist": "Traditional",
+      "genre": "Indie / Folk",
+      "release_year": 1580,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://en.wikisource.org/wiki/A_Handful_of_Pleasant_Delights/A_new_Courtly_Sonet,_of_the_Lady_Greensleeues",
+      "chart_kind": "inline",
+      "key": "A minor",
+      "capo": null,
+      "content": [
+        {
+          "name": "First verse · spelling modernized from the 1584 text",
+          "lines": [
+            {
+              "chords": "Am       C              G",
+              "lyrics": "Alas, my love, ye do me wrong,"
+            },
+            {
+              "chords": "Am             E",
+              "lyrics": "To cast me off discourteously:"
+            },
+            {
+              "chords": "Am         C            G",
+              "lyrics": "And I have loved you so long,"
+            },
+            {
+              "chords": "Am                 E",
+              "lyrics": "Delighting in your company."
+            }
+          ]
+        },
+        {
+          "name": "Refrain · spelling modernized from the 1584 text",
+          "lines": [
+            {
+              "chords": "C                       G",
+              "lyrics": "Greensleeves was all my joy,"
+            },
+            {
+              "chords": "Am                  E",
+              "lyrics": "Greensleeves was my delight:"
+            },
+            {
+              "chords": "C                            G",
+              "lyrics": "Greensleeves was my heart of gold,"
+            },
+            {
+              "chords": "Am          E    Am",
+              "lyrics": "And who but Lady Greensleeves."
+            }
+          ]
+        }
+      ],
+      "attribution": "Anonymous traditional text from A Handful of Pleasant Delights (1584; 1878 edition). First verse and refrain only; spelling modernized by Riffin’ from the linked public-domain text. Original simplified A-minor accompaniment by Riffin’; no modern arrangement copied.",
+      "chord_source_url": "https://en.wikisource.org/wiki/A_Handful_of_Pleasant_Delights/A_new_Courtly_Sonet,_of_the_Lady_Greensleeues",
+      "reference_note": "Anonymous traditional text from A Handful of Pleasant Delights (1584; 1878 edition). First verse and refrain only; spelling modernized by Riffin’ from the linked public-domain text. Original simplified A-minor accompaniment by Riffin’; no modern arrangement copied.",
+      "checked_on": "2026-11-13",
+      "lyrics_license": "public-domain",
+      "lyrics_source_url": "https://en.wikisource.org/wiki/A_Handful_of_Pleasant_Delights/A_new_Courtly_Sonet,_of_the_Lady_Greensleeues"
+    },
+    {
+      "id": "demo-rock",
+      "title": "Basement Comet",
+      "artist": "Riffin’ Original Demo",
+      "genre": "Rock",
+      "release_year": 2026,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "chart_kind": "inline",
+      "origin": "original-demo",
+      "key": "E minor",
+      "capo": null,
+      "content": [
+        {
+          "name": "Verse",
+          "lines": [
+            {
+              "chords": "E5                 G5",
+              "lyrics": "The kettle clicks, our cables glow"
+            },
+            {
+              "chords": "A5               E5",
+              "lyrics": "A cardboard moon hangs near the door"
+            },
+            {
+              "chords": "E5                   G5",
+              "lyrics": "We count four sparks and let them go"
+            },
+            {
+              "chords": "A5              E5",
+              "lyrics": "Our little room becomes a roar"
+            }
+          ]
+        },
+        {
+          "name": "Refrain",
+          "lines": [
+            {
+              "chords": "G5          A5",
+              "lyrics": "Turn up the corners of the night"
+            },
+            {
+              "chords": "E5                E5",
+              "lyrics": "Let every crooked note take flight"
+            },
+            {
+              "chords": "G5               A5",
+              "lyrics": "No golden stage, just friends in tune"
+            },
+            {
+              "chords": "E5        E5",
+              "lyrics": "We send a comet through the room"
+            }
+          ]
+        }
+      ],
+      "attribution": "Original Riffin’ Rock-inspired teaching song; generated lyrics and authored simplified accompaniment. Common chord vocabulary: E5 G5 A5 E5. Not a real artist recording or a third-party arrangement. CC0 1.0 dedication to the extent rights apply.",
+      "reference_note": "Original Riffin’ Rock-inspired teaching song; generated lyrics and authored simplified accompaniment. Common chord vocabulary: E5 G5 A5 E5. Not a real artist recording or a third-party arrangement. CC0 1.0 dedication to the extent rights apply.",
+      "checked_on": "2026-11-13",
+      "lyrics_license": "CC0-1.0",
+      "lyrics_source_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "id": "demo-pop",
+      "title": "Pocket-Sized Sunrise",
+      "artist": "Riffin’ Original Demo",
+      "genre": "Pop",
+      "release_year": 2026,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "chart_kind": "inline",
+      "origin": "original-demo",
+      "key": "C major",
+      "capo": null,
+      "content": [
+        {
+          "name": "Verse",
+          "lines": [
+            {
+              "chords": "C        Am",
+              "lyrics": "I drew a sun upon my sleeve"
+            },
+            {
+              "chords": "F           G",
+              "lyrics": "And wore it through the morning rain"
+            },
+            {
+              "chords": "C           Am",
+              "lyrics": "A tiny beat I could believe"
+            },
+            {
+              "chords": "F            G",
+              "lyrics": "Kept tapping on the windowpane"
+            }
+          ]
+        },
+        {
+          "name": "Refrain",
+          "lines": [
+            {
+              "chords": "C                      Am",
+              "lyrics": "A pocket-sized sunrise comes with me"
+            },
+            {
+              "chords": "F             G",
+              "lyrics": "A paper spark above the street"
+            },
+            {
+              "chords": "C             Am",
+              "lyrics": "I hum the day I want to see"
+            },
+            {
+              "chords": "F            G",
+              "lyrics": "And give the clouds a dancing beat"
+            }
+          ]
+        }
+      ],
+      "attribution": "Original Riffin’ Pop-inspired teaching song; generated lyrics and authored simplified accompaniment. Common chord vocabulary: C Am F G. Not a real artist recording or a third-party arrangement. CC0 1.0 dedication to the extent rights apply.",
+      "reference_note": "Original Riffin’ Pop-inspired teaching song; generated lyrics and authored simplified accompaniment. Common chord vocabulary: C Am F G. Not a real artist recording or a third-party arrangement. CC0 1.0 dedication to the extent rights apply.",
+      "checked_on": "2026-11-13",
+      "lyrics_license": "CC0-1.0",
+      "lyrics_source_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "id": "demo-jazz",
+      "title": "Lanterns After Closing",
+      "artist": "Riffin’ Original Demo",
+      "genre": "Jazz",
+      "release_year": 2026,
+      "difficulty": "Intermediate",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "chart_kind": "inline",
+      "origin": "original-demo",
+      "key": "C major",
+      "capo": null,
+      "content": [
+        {
+          "name": "Verse",
+          "lines": [
+            {
+              "chords": "Dm7           G7",
+              "lyrics": "The last tram folds its silver wings"
+            },
+            {
+              "chords": "Cmaj7           Am7",
+              "lyrics": "A lantern warms the empty square"
+            },
+            {
+              "chords": "Dm7          G7",
+              "lyrics": "My cup keeps time in little rings"
+            },
+            {
+              "chords": "Cmaj7                  Am7",
+              "lyrics": "While velvet footsteps climb the stair"
+            }
+          ]
+        },
+        {
+          "name": "Refrain",
+          "lines": [
+            {
+              "chords": "Dm7          G7",
+              "lyrics": "We leave one lamp beside the keys"
+            },
+            {
+              "chords": "Cmaj7       Am7",
+              "lyrics": "And let the quiet learn to sway"
+            },
+            {
+              "chords": "Dm7                G7",
+              "lyrics": "A small blue pause rides on the breeze"
+            },
+            {
+              "chords": "Cmaj7        Cmaj7",
+              "lyrics": "Then finds a gentle place to stay"
+            }
+          ]
+        }
+      ],
+      "attribution": "Original Riffin’ Jazz-inspired teaching song; generated lyrics and authored simplified accompaniment. Common chord vocabulary: Dm7 G7 Cmaj7 Am7. Not a real artist recording or a third-party arrangement. CC0 1.0 dedication to the extent rights apply.",
+      "reference_note": "Original Riffin’ Jazz-inspired teaching song; generated lyrics and authored simplified accompaniment. Common chord vocabulary: Dm7 G7 Cmaj7 Am7. Not a real artist recording or a third-party arrangement. CC0 1.0 dedication to the extent rights apply.",
+      "checked_on": "2026-11-13",
+      "lyrics_license": "CC0-1.0",
+      "lyrics_source_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "id": "demo-folk",
+      "title": "Maple Postcard",
+      "artist": "Riffin’ Original Demo",
+      "genre": "Indie / Folk",
+      "release_year": 2026,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "chart_kind": "inline",
+      "origin": "original-demo",
+      "key": "G major",
+      "capo": null,
+      "content": [
+        {
+          "name": "Verse",
+          "lines": [
+            {
+              "chords": "G          C",
+              "lyrics": "I tucked a leaf inside my case"
+            },
+            {
+              "chords": "D            G",
+              "lyrics": "And took the lane behind the mill"
+            },
+            {
+              "chords": "G                 C",
+              "lyrics": "The morning found a slower pace"
+            },
+            {
+              "chords": "D                  G",
+              "lyrics": "Along the shoulder of the hill"
+            }
+          ]
+        },
+        {
+          "name": "Refrain",
+          "lines": [
+            {
+              "chords": "G                 C",
+              "lyrics": "A maple postcard, creased and green"
+            },
+            {
+              "chords": "D          G",
+              "lyrics": "A tune the gravel knows by heart"
+            },
+            {
+              "chords": "G              C",
+              "lyrics": "I carry places I have been"
+            },
+            {
+              "chords": "D              G",
+              "lyrics": "In every chord before I start"
+            }
+          ]
+        }
+      ],
+      "attribution": "Original Riffin’ Indie / Folk-inspired teaching song; generated lyrics and authored simplified accompaniment. Common chord vocabulary: G C D G. Not a real artist recording or a third-party arrangement. CC0 1.0 dedication to the extent rights apply.",
+      "reference_note": "Original Riffin’ Indie / Folk-inspired teaching song; generated lyrics and authored simplified accompaniment. Common chord vocabulary: G C D G. Not a real artist recording or a third-party arrangement. CC0 1.0 dedication to the extent rights apply.",
+      "checked_on": "2026-11-13",
+      "lyrics_license": "CC0-1.0",
+      "lyrics_source_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "id": "demo-electronic",
+      "title": "Neon Paper Planes",
+      "artist": "Riffin’ Original Demo",
+      "genre": "Electronic",
+      "release_year": 2026,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "chart_kind": "inline",
+      "origin": "original-demo",
+      "key": "A minor",
+      "capo": null,
+      "content": [
+        {
+          "name": "Verse",
+          "lines": [
+            {
+              "chords": "Am          F",
+              "lyrics": "We fold the dusk in violet squares"
+            },
+            {
+              "chords": "C             G",
+              "lyrics": "And launch it past the station clock"
+            },
+            {
+              "chords": "Am        F",
+              "lyrics": "A grid of tiny city flares"
+            },
+            {
+              "chords": "C             G",
+              "lyrics": "Keeps pulsing underneath the block"
+            }
+          ]
+        },
+        {
+          "name": "Refrain",
+          "lines": [
+            {
+              "chords": "Am         F",
+              "lyrics": "Neon paper planes align"
+            },
+            {
+              "chords": "C        G",
+              "lyrics": "On every fourth electric glow"
+            },
+            {
+              "chords": "Am          F",
+              "lyrics": "Your signal crosses into mine"
+            },
+            {
+              "chords": "C          G",
+              "lyrics": "We let the bright horizon flow"
+            }
+          ]
+        }
+      ],
+      "attribution": "Original Riffin’ Electronic-inspired teaching song; generated lyrics and authored simplified accompaniment. Common chord vocabulary: Am F C G. Not a real artist recording or a third-party arrangement. CC0 1.0 dedication to the extent rights apply.",
+      "reference_note": "Original Riffin’ Electronic-inspired teaching song; generated lyrics and authored simplified accompaniment. Common chord vocabulary: Am F C G. Not a real artist recording or a third-party arrangement. CC0 1.0 dedication to the extent rights apply.",
+      "checked_on": "2026-11-13",
+      "lyrics_license": "CC0-1.0",
+      "lyrics_source_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "id": "demo-classical",
+      "title": "Courtyard Miniature",
+      "artist": "Riffin’ Original Demo",
+      "genre": "Classical",
+      "release_year": 2026,
+      "difficulty": "Beginner",
+      "instruments": [
+        "Guitar",
+        "Piano"
+      ],
+      "source_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "chart_kind": "inline",
+      "origin": "original-demo",
+      "key": "C major",
+      "capo": null,
+      "content": [
+        {
+          "name": "Verse",
+          "lines": [
+            {
+              "chords": "C              F",
+              "lyrics": "A sparrow maps the courtyard stones"
+            },
+            {
+              "chords": "G7                 C",
+              "lyrics": "With careful steps from shade to sun"
+            },
+            {
+              "chords": "C            F",
+              "lyrics": "The fountain answers silver tones"
+            },
+            {
+              "chords": "G7             C",
+              "lyrics": "And counts the circles one by one"
+            }
+          ]
+        },
+        {
+          "name": "Refrain",
+          "lines": [
+            {
+              "chords": "C                 F",
+              "lyrics": "Each quiet phrase returns to rest"
+            },
+            {
+              "chords": "G7                    C",
+              "lyrics": "Like ribbons settling on a chair"
+            },
+            {
+              "chords": "C        F",
+              "lyrics": "A little cadence softly dressed"
+            },
+            {
+              "chords": "G7              C",
+              "lyrics": "Leaves room for morning in the air"
+            }
+          ]
+        }
+      ],
+      "attribution": "Original Riffin’ Classical-inspired teaching song; generated lyrics and authored simplified accompaniment. Common chord vocabulary: C F G7 C. Not a real artist recording or a third-party arrangement. CC0 1.0 dedication to the extent rights apply.",
+      "reference_note": "Original Riffin’ Classical-inspired teaching song; generated lyrics and authored simplified accompaniment. Common chord vocabulary: C F G7 C. Not a real artist recording or a third-party arrangement. CC0 1.0 dedication to the extent rights apply.",
+      "checked_on": "2026-11-13",
+      "lyrics_license": "CC0-1.0",
+      "lyrics_source_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ]
+}

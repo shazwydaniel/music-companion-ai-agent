@@ -1,0 +1,133 @@
+<script>
+// 1. A local, ephemeral drag position; no browser storage, network or user data.
+if (!window.riffinPipDragBound) {
+  window.riffinPipDragBound = true;
+  let drag = null;
+  document.addEventListener('pointerdown', (event) => {
+    const grip = event.target.closest('.riffin-pip-grip');
+    const panel = grip?.closest('.st-key-riffin-agent-pip');
+    if (!panel || event.button !== 0) return;
+    const rect = panel.getBoundingClientRect();
+    drag = { panel, x: event.clientX - rect.left, y: event.clientY - rect.top };
+    grip.setPointerCapture(event.pointerId);
+    event.preventDefault();
+  });
+  // 2. Keep the panel in the viewport while dragging; the disclosure remains native.
+  document.addEventListener('pointermove', (event) => {
+    if (!drag) return;
+    const {panel, x, y} = drag;
+    panel.style.left = Math.max(8, Math.min(innerWidth - panel.offsetWidth - 8, event.clientX - x)) + 'px';
+    panel.style.top = Math.max(8, Math.min(innerHeight - panel.offsetHeight - 8, event.clientY - y)) + 'px';
+    panel.style.right = 'auto'; panel.style.bottom = 'auto';
+  });
+  document.addEventListener('pointerup', () => { drag = null; });
+  document.addEventListener('pointercancel', () => { drag = null; });
+  window.addEventListener('resize', () => {
+    const panel = document.querySelector('.st-key-riffin-agent-pip');
+    if (panel) ['left', 'top', 'right', 'bottom'].forEach(key => panel.style.removeProperty(key));
+  });
+  // 3. Open once on actual activity in a new turn; manual collapse stays respected.
+  let openedTurn = null;
+  new MutationObserver(() => {
+    const panel = document.querySelector('.st-key-riffin-agent-pip');
+    const graph = panel?.querySelector('.agent-graph');
+    if (!graph?.querySelector('.agent-node.running') || graph.dataset.turn === openedTurn) return;
+    openedTurn = graph.dataset.turn;
+    const details = panel.querySelector('details');
+    if (details && !details.open) panel.querySelector('summary')?.click();
+  }).observe(document.body, {childList: true, subtree: true});
+}
+// 4. Keep the floating panel above the actual native footer/composer height.
+if (!window.riffinBottomTrackerBound) {
+  window.riffinBottomTrackerBound = true;
+  let tracked = null;
+  const measure = () => {
+    const rect = tracked?.getBoundingClientRect();
+    const offset = rect && rect.height > 0 ? Math.max(144, innerHeight - rect.top + 16) : 144;
+    document.documentElement.style.setProperty('--riffin-bottom-offset', Math.ceil(offset) + 'px');
+  };
+  const resize = new ResizeObserver(measure);
+  const track = () => {
+    const next = document.querySelector('[data-testid="stBottomBlockContainer"]');
+    if (next !== tracked) {
+      resize.disconnect(); tracked = next;
+      if (tracked) resize.observe(tracked);
+    }
+    measure();
+  };
+  new MutationObserver(track).observe(document.body, {childList: true, subtree: true});
+  window.addEventListener('resize', measure);
+  track();
+}
+// 5. Follow new chat bubbles as they appear; manual reading disables following.
+if (!window.riffinChatFollowBound) {
+  window.riffinChatFollowBound = true;
+  let following = false;
+  let scheduled = false;
+  let startingBubbles = 0;
+  let lastPendingKey = null;
+  const followLatest = () => {
+    scheduled = false;
+    if (!following) return;
+    const main = document.querySelector('[data-testid="stMain"]');
+    const chat = main?.querySelector('.st-key-riffin-page-chat');
+    const bubbles = chat?.querySelectorAll('[class*="st-key-message-user-"], [class*="st-key-message-riffin-"]');
+    const latest = bubbles?.[bubbles.length - 1];
+    const bottom = document.querySelector('[data-testid="stBottomBlockContainer"]');
+    if (!latest || !bottom) return;
+    const desiredBottom = bottom.getBoundingClientRect().top - 16;
+    const distance = latest.getBoundingClientRect().bottom - desiredBottom;
+    if (Math.abs(distance) > 8) main.scrollTop += distance;
+    if (bubbles.length > startingBubbles && latest.className.includes('st-key-message-riffin-') &&
+        document.querySelector('.stApp')?.getAttribute('data-test-script-state') === 'notRunning') {
+      following = false;
+    }
+  };
+  const scheduleFollow = () => {
+    if (!following || scheduled) return;
+    scheduled = true;
+    requestAnimationFrame(followLatest);
+  };
+  const startFollowing = () => {
+    startingBubbles = document.querySelectorAll(
+      '.st-key-riffin-page-chat [class*="st-key-message-user-"], .st-key-riffin-page-chat [class*="st-key-message-riffin-"]'
+    ).length;
+    following = true;
+    scheduleFollow();
+  };
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Enter' && !event.shiftKey && !event.isComposing &&
+        event.target.closest('[data-testid="stChatInput"]')) {
+      startFollowing();
+    }
+    if ((event.key === 'PageUp' || event.key === 'Home') && following) following = false;
+  });
+  document.addEventListener('click', event => {
+    if (event.target.closest('[data-testid="stChatInputSubmitButton"]')) {
+      startFollowing();
+    }
+    if (event.target.closest('.st-key-view [role="radiogroup"]')) following = false;
+  });
+  document.addEventListener('wheel', event => {
+    if (event.deltaY < 0 && event.target.closest('[data-testid="stMain"]')) following = false;
+  }, {passive: true});
+  document.addEventListener('touchmove', event => {
+    if (event.target.closest('[data-testid="stMain"]')) following = false;
+  }, {passive: true});
+  new MutationObserver(() => {
+    // 6. Queued catalog/Search actions also start following their pending reply.
+    const pending = document.querySelector('[class*="st-key-message-riffin-pending-"]');
+    const pendingKey = pending && [...pending.classList].find(name => name.startsWith('st-key-message-riffin-pending-'));
+    if (pendingKey && pendingKey !== lastPendingKey) {
+      lastPendingKey = pendingKey;
+      following = true;
+      startingBubbles = Math.max(0, document.querySelectorAll(
+        '.st-key-riffin-page-chat [class*="st-key-message-user-"], .st-key-riffin-page-chat [class*="st-key-message-riffin-"]'
+      ).length - 2);
+    }
+    scheduleFollow();
+  }).observe(document.body, {
+    childList: true, characterData: true, subtree: true
+  });
+}
+</script>

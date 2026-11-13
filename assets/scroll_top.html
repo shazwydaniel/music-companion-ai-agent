@@ -1,0 +1,20 @@
+<script>
+// 1. Only a tab change supplies this numeric session request; no user HTML executes.
+(async () => {
+  const request = __RIFFIN_SCROLL_REQUEST__;
+  window.riffinPageScrollRequest = request;
+  // 2. Let the native rerun settle before resetting the actual page scroll container.
+  let stable = 0;
+  for (let attempt = 0; attempt < 100; attempt++) {
+    await new Promise(resolve => setTimeout(resolve, 50));
+    if (window.riffinPageScrollRequest !== request) return;
+    const ready = document.querySelector('.stApp')?.getAttribute('data-test-script-state') === 'notRunning';
+    stable = ready ? stable + 1 : 0;
+    if (stable >= 3) {
+      document.querySelector('[data-testid="stMain"]')?.scrollTo({top: 0, behavior: 'instant'});
+      window.scrollTo({top: 0, behavior: 'instant'});
+      return;
+    }
+  }
+})();
+</script>

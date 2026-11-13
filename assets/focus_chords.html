@@ -1,0 +1,21 @@
+<script>
+// 1. An explicit open supplies only a numeric session request ID, never user HTML.
+(async () => {
+  const request = __RIFFIN_FOCUS_REQUEST__;
+  window.riffinChordFocusRequest = request;
+  // 2. Wait for the rerun to settle so native layout updates cannot undo the jump.
+  let stable = 0;
+  for (let attempt = 0; attempt < 100; attempt++) {
+    await new Promise(resolve => setTimeout(resolve, 50));
+    if (window.riffinChordFocusRequest !== request) return;
+    const sheet = document.getElementById('riffin-chord-sheet');
+    if (!document.querySelector('.st-key-riffin-page-songbook')) return;
+    const ready = document.querySelector('.stApp')?.dataset.testScriptState === 'notRunning';
+    stable = ready && sheet && !sheet.closest('[data-stale="true"]') ? stable + 1 : 0;
+    if (stable >= 3) {
+      sheet.scrollIntoView({block: 'start', behavior: 'instant'});
+      return;
+    }
+  }
+})();
+</script>
