@@ -6,7 +6,7 @@ Riffin’ is a music companion for beginner and intermediate musicians, built fo
 
 ## Current phase
 
-Riffin’ is a runnable local capstone: four ADK specialists route music requests, a read-only SQLite catalog and four authored lessons supply local facts, and Streamlit presents recommendations, chords and chat. Input guards mask common personal identifiers and block clear prompt-injection, unrelated and destructive requests. SQLite reads use an AST mutation check, `mode=ro` and `PRAGMA query_only`. Model callbacks record token counts and a paid-tier cost estimate without logging prompts. Four public golden cases passed a separate live Gemini judge on 13 November 2026.
+Riffin’ is a runnable local capstone: four ADK specialists route music requests, a read-only SQLite catalog and four authored lessons supply local facts, and Streamlit presents recommendations, chords and chat. Input guards mask common personal identifiers and block clear prompt-injection, unrelated and destructive requests. SQLite reads use an AST mutation check, `mode=ro` and `PRAGMA query_only`. Model callbacks record token counts and a paid-tier cost estimate without logging prompts. Four public golden cases passed a separate live Gemini judge on 13 November 2026; the [submission benchmark report](docs/EVALUATION_BENCHMARK_REPORT.md) includes the assistant and judge spend.
 
 **Capstone limits:** MCP discovery is deliberately omitted, so that rubric item is unmet. The current implementation has not been pushed or deployed by this work; hosted behavior is unverified. You control commits, pushes and Streamlit Community Cloud deployment.
 
@@ -138,7 +138,7 @@ knowledge/retrieval_checks.json  # Public gate-calibration examples (JSON)
 assets/                         # Human-created mascot/avatars, local art and CSS
 static/fonts/                   # Locally served Poppins faces and SIL OFL notice
 scripts/                        # Seed, index, live integration and judged evaluation
-tests/                          # 76 local tests plus four public golden judge cases
+tests/                          # Local tests plus four public golden judge cases
 docs/                           # All other Markdown: specs, lessons, credits, reports
 .streamlit/config.toml           # Shared typography and both native themes
 requirements.txt                # Pinned dependencies
@@ -185,7 +185,7 @@ The SQLite songbook is separate from these notes. Lyrics, every song's harmony, 
 
 ## Verification · 13 November 2026
 
-**76 local tests pass** on Python **3.12.1** with the pinned dependencies:
+The **76-test local suite** passed on Python **3.12.1** before this benchmark-report update. The new assistant-plus-judge cost test passed in the focused 7-test capstone-control run; rerun the full suite before submission:
 
 The most recent saved [browser verification report](docs/interface-v8-verification.md) records Poppins loading, navigation, prompts and responsive Light/Dark checks. It predates the For You web cards and the colored Chat status row. The [Music Math report](docs/interface-v6-verification.md) retains demo, calculator and live routing evidence. Automated tests for the latest behavior are included below; a fresh browser pass is still pending.
 
@@ -193,10 +193,10 @@ The most recent saved [browser verification report](docs/interface-v8-verificati
 .venv/bin/python -m unittest discover -s tests -v
 .venv/bin/python scripts/index_knowledge.py
 .venv/bin/python scripts/check_agent_integration.py
-.venv/bin/python scripts/evaluate_agent.py
+.venv/bin/python scripts/evaluate_agent.py --report docs/EVALUATION_BENCHMARK_REPORT.md
 ```
 
-`scripts/evaluate_agent.py` uses the server-side key from ignored local Secrets or `GOOGLE_API_KEY`. It runs four public cases in `tests/golden_cases.json` through separate Riffin’ sessions and a separate structured Gemini judge. It exits nonzero if a case fails or the provider/key is unavailable; no private prompts or key are printed. The 13 November live run passed **4/4**: internal triad with exact note title, chord transposition, catalog Guitar chart, and destructive-write refusal. A live provider attempt needs network access and may incur API charges.
+`scripts/evaluate_agent.py` uses the server-side key from ignored local Secrets or `GOOGLE_API_KEY`. It runs four public cases in `tests/golden_cases.json` through separate Riffin’ sessions and a separate structured Gemini judge. With `--report`, it writes a public Markdown report and a numeric JSON companion used by the **Evaluation Harness** card. It exits nonzero if a case fails or the provider/key is unavailable; no private prompts or key are printed. The 13 November live run passed **4/4** with **16 model calls**, **12,266 input tokens**, **4,958 output/thinking tokens**, and **$0.027792 estimated paid-tier model-generation cost**, including the judge. See the [dated benchmark report](docs/EVALUATION_BENCHMARK_REPORT.md) for the four case results and cost exclusions. A live provider attempt needs network access and may incur API charges.
 
 No-key local startup was checked with an empty test-only Secrets file: Streamlit reported a local URL and its health endpoint returned HTTP **200**. The app flow is also covered by tests that remove both Secrets and environment keys. No credential value appears in this README.
 

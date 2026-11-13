@@ -2,14 +2,14 @@
 
 ## Current enterprise-analyst rubric cross-check · 13 November 2026
 
-- [x] **Pillar 1 — Multi-agent/tools.** Riffin’ is the music-domain option: one ADK coordinator delegates through `AgentTool` to Songbook, Music Theory, Web Search and Music Math. Local routing tests exercise the current graph; the live judge cases ran before the specialist rename.
+- [x] **Pillar 1 — Multi-agent/tools.** Riffin’ is the music-domain option: one ADK coordinator delegates through `AgentTool` to Songbook, Music Theory, Web Search and Music Math. Local routing tests and the 13 November live judge run exercise the current graph.
 - [ ] **Pillar 2 — Enterprise integration as worded.** The app queries the seeded SQLite catalog and authored lesson files, but MCP discovery primitives are deliberately omitted at the user's request. The non-MCP source integration is verified; strict rubric completion is not claimed.
 - [x] **Pillar 3 — Two-tier guardrails.** Tested prompt-injection refusal and common PII masking before ADK; catalog SELECTs pass `is_sql_mutation` AST verification and read-only SQLite URI/query-only connections. The matcher is rule-based and cannot guarantee all PII or injection variants.
 - [x] **Pillar 4 — Observability/cost.** `after_model_callback` captures native usage, logs numeric token counts and dated paid-tier Gemini 3.6 Flash USD estimates, and displays the per-turn summary. Search/billing extras are excluded from the estimate.
-- [x] **Pillar 5 — Automated LLM judge.** `scripts/evaluate_agent.py` evaluated four public golden cases with separate Gemini judge calls; 4/4 passed in a live local run. A missing key/provider causes a nonzero pending result.
+- [x] **Pillar 5 — Automated LLM judge.** `scripts/evaluate_agent.py` evaluated four public golden cases with separate Gemini judge calls; 4/4 passed in a live local run. The [submission report](EVALUATION_BENCHMARK_REPORT.md) records 16 assistant-plus-judge model calls and $0.027792 estimated paid-tier generation cost. A missing key/provider causes a nonzero pending result.
 - [ ] **Pillar 6 — Hosted deployment.** `app.py`, pinned `requirements.txt`, server-side `st.secrets` resolution, and README startup/deployment instructions exist. GitHub publication and Streamlit Cloud deployment are reserved for the user; hosted acceptance remains pending.
 
-Evidence: `.venv/bin/python -m unittest discover -s tests -q` and `.venv/bin/python scripts/evaluate_agent.py`; see the README verification section. No MCP, commit, push or hosted deployment was performed.
+Evidence: `.venv/bin/python -m unittest discover -s tests -q` and `.venv/bin/python scripts/evaluate_agent.py --report docs/EVALUATION_BENCHMARK_REPORT.md`; see the benchmark report and README verification section. No MCP, commit, push or hosted deployment was performed in this work.
 
 Use alongside `docs/MUSIC_COMPANION_SPEC.md`, `docs/UI_STYLE_GUIDE.md`, and the starter `MUSIC_KNOWLEDGE_BASE.md`. Work in order, starting with a runnable skeleton and the chart flow. Check an item after you observe its acceptance result. Record the evidence or remaining blocker in the README. MVP items are the release target. The coursework showcase below is based on the supplied labs and can be updated when an official rubric is available.
 

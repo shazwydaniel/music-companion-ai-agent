@@ -1,0 +1,51 @@
+{
+  "run_utc": "2026-11-13T06:53:00+00:00",
+  "model": "gemini-3.6-flash",
+  "summary": {
+    "passed": 4,
+    "cases": 4,
+    "assistant": {
+      "model_calls": 12,
+      "input_tokens": 11110,
+      "output_tokens": 3280,
+      "estimated_usd": 0.0206325,
+      "telemetry_complete": true
+    },
+    "judge": {
+      "model_calls": 4,
+      "input_tokens": 1156,
+      "output_tokens": 1678,
+      "estimated_usd": 0.0071595,
+      "telemetry_complete": true
+    },
+    "total": {
+      "model_calls": 16,
+      "input_tokens": 12266,
+      "output_tokens": 4958,
+      "estimated_usd": 0.027792,
+      "telemetry_complete": true
+    }
+  },
+  "cases": [
+    {
+      "id": "internal_triad",
+      "passed": true,
+      "score": 5
+    },
+    {
+      "id": "music_math",
+      "passed": true,
+      "score": 5
+    },
+    {
+      "id": "catalog_lookup",
+      "passed": true,
+      "score": 5
+    },
+    {
+      "id": "destructive_guard",
+      "passed": true,
+      "score": 5
+    }
+  ]
+}

@@ -324,6 +324,9 @@
 .riffin-eval-card { display: grid; gap: 6px; margin-top: 6px; padding: 12px; border: 1px solid light-dark(#CFC3DB, #685A74); border-radius: 12px; background: light-dark(#F2ECF7, #302B38); color: light-dark(#322C38, #F0E9F5); font-size: 11px; line-height: 1.45; }
 .riffin-eval-title { display: flex; align-items: center; gap: 7px; font-size: 12px; }
 .riffin-eval-title > span { display: inline-grid; place-items: center; width: 19px; height: 19px; border-radius: 50%; background: light-dark(#DED2E8, #4F445C); }
+.riffin-eval-stats { display: flex; flex-wrap: wrap; gap: 8px; margin: 5px 0 2px; }
+.riffin-eval-stats strong { display: inline-flex; align-items: center; min-height: 27px; padding: 4px 9px; border-radius: 999px; background: light-dark(#DED2E8, #4F445C); color: light-dark(#362B40, #F5EDF9); font-size: 11px; line-height: 1.25; }
+.riffin-eval-stats strong:last-child { background: light-dark(#DCEBD8, #314832); color: light-dark(#29442C, #E1F5DB); }
 .riffin-eval-card p { margin: 0; }
 .riffin-eval-card small { color: light-dark(#62586B, #CFC3D9); font-size: 10px; }
 .riffin-eval-card code { overflow-wrap: anywhere; font-size: 10px; color: inherit; }

@@ -12,6 +12,7 @@ from music_agent.observability import summarize_usage, usage_from_response
 from music_agent.runner import AgentChatSession, resolve_evidence
 from music_agent.turn import TurnEvidence
 from music_agent.security import is_sql_mutation, mask_pii, prompt_injection_request
+from scripts.evaluate_agent import benchmark_summary, report_markdown
 
 
 class CapstoneControlTests(unittest.IsolatedAsyncioTestCase):
@@ -61,6 +62,19 @@ class CapstoneControlTests(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(entry["estimated_usd"], 0)
         self.assertEqual(summarize_usage([entry])["output_tokens"], 250)
         self.assertIsNone(usage_from_response(Mock(usage_metadata=None), "songbook"))
+
+    def test_benchmark_counts_judge_spend_and_reports_missing_telemetry(self):
+        case = {"id": "public_case", "passed": True, "score": 5,
+                "usage": {"model_calls": 2, "input_tokens": 100, "output_tokens": 50,
+                          "estimated_usd": 0.0002},
+                "judge_usage": {"model_calls": 1, "input_tokens": 200, "output_tokens": 30,
+                                "estimated_usd": 0.0003}}
+        summary = benchmark_summary([case])
+        self.assertEqual(summary["total"]["model_calls"], 3)
+        self.assertEqual(summary["total"]["estimated_usd"], 0.0005)
+        self.assertIn("$0.00050000", report_markdown([case], summary))
+        case["judge_usage"]["estimated_usd"] = None
+        self.assertIsNone(benchmark_summary([case])["total"]["estimated_usd"])
 
     def test_explicit_artist_and_instrument_resolve_tool_choices(self):
         evidence = TurnEvidence("Find Guitar chords for Come As You Are by Nirvana")
